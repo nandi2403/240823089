@@ -1,20 +1,16 @@
 {
-  "name": "240823089",
+  "name": "nandinishah",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "db.js",
   "scripts": {
+    "start": "nodemon db.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nandi2403/240823089.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nandi2403/240823089/issues"
-  },
-  "homepage": "https://github.com/nandi2403/240823089#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mongoose": "^8.18.0"
+  }
 }
